@@ -1,0 +1,20 @@
+var oeTags = '<object id="QuickTimePlayer" classid="CLSID:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"'
+         + 'width="1280" height="736"'
+         + 'codebase="http://www.apple.com/qtactivex/qtplugin.cab">'
+         + '   <param name="src"        value="Ruby0207Exercise1_media/Ruby0207Exercise1.mov"/>'
+         + '   <param name="autoplay"   value="true" />'
+         + '   <param name="loop"       value="false" />'                                                      
+         + '   <param name="controller" value="true" />'                                     
+         + '   <embed id       ="EmbedQuickTimePlayer"'
+         + '       pluginspage ="http://www.apple.com/quicktime/download/"'
+         + '       src         ="Ruby0207Exercise1_media/Ruby0207Exercise1.mov"'
+         + '       autoplay    ="true"'
+         + '       loop        ="false"'
+         + '       controller  ="true"'
+         + '       enablejavascript ="true"'
+         + '       width       ="1280"'
+         + '       height      ="736">'
+         + '   </embed>'
+         + '</object>';
+document.write(oeTags);
+

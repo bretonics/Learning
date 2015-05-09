@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Work"
+      name = "Work">
+      <FileRef
+         location = "group:calc.rb">
+      </FileRef>
+      <FileRef
+         location = "group:calcloop.rb">
+      </FileRef>
+      <FileRef
+         location = "group:calcMethods.rb">
+      </FileRef>
+      <FileRef
+         location = "group:case.rb">
+      </FileRef>
+      <FileRef
+         location = "group:cvowels.rb">
+      </FileRef>
+      <FileRef
+         location = "group:ex1.rb">
+      </FileRef>
+      <FileRef
+         location = "group:first.rb">
+      </FileRef>
+      <FileRef
+         location = "group:forin.rb">
+      </FileRef>
+      <FileRef
+         location = "group:formulas.rb">
+      </FileRef>
+      <FileRef
+         location = "group:functions.rb">
+      </FileRef>
+      <FileRef
+         location = "group:guess.rb">
+      </FileRef>
+      <FileRef
+         location = "group:helloword.rb">
+      </FileRef>
+      <FileRef
+         location = "group:here.rb">
+      </FileRef>
+      <FileRef
+         location = "group:ifelseif.rb">
+      </FileRef>
+      <FileRef
+         location = "group:ifstmt.rb">
+      </FileRef>
+      <FileRef
+         location = "group:iterators.rb">
+      </FileRef>
+      <FileRef
+         location = "group:methods2.rb">
+      </FileRef>
+      <FileRef
+         location = "group:File.rb"
+         assignedFileDataType = "public.ruby-script">
+      </FileRef>
+      <FileRef
+         location = "group:methodsp1.rb">
+      </FileRef>
+      <FileRef
+         location = "group:minmax.rb">
+      </FileRef>
+      <FileRef
+         location = "group:pre.rb">
+      </FileRef>
+      <FileRef
+         location = "group:thanks.rb">
+      </FileRef>
+      <FileRef
+         location = "group:tipcalc.rb">
+      </FileRef>
+      <FileRef
+         location = "group:until.rb">
+      </FileRef>
+      <FileRef
+         location = "group:while.rb">
+      </FileRef>
+   </Group>
+</Workspace>
