@@ -1,6 +1,2 @@
-Inside file?
-printing inside file with print redirection
-printing inside file with print redirection
-printing inside file with print redirection
-printing inside file with print redirection
-printing inside file with print redirection
+this is a line 1
+this is line 2
