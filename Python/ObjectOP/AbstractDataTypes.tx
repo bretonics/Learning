@@ -1,0 +1,16 @@
+Abstract Data Types (ADT)
+
+Name is class =>
+
+Name:
+	Atributes:
+		First, middle, last
+	Behaviors:
+		First-middle-last
+		Last-first-middle
+		Initials
+
+Class/Object
+
+Class - definition of an ADT
+Object - instance of a class

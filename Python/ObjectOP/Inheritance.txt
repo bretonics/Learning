@@ -1,0 +1,6 @@
+Inheritance
+
+is-a relation
+        car is-a vehicle
+        manager is-a employee
+        rectangle is-a shape
