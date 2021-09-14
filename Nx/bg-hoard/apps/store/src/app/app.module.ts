@@ -5,15 +5,24 @@ import { RouterModule } from '@angular/router';
 import { StoreUiSharedModule } from '@bg-hoard/store/ui-shared';
 import { AppComponent } from './app.component';
 
-
-
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([], { initialNavigation: 'enabledBlocking' }),
+    RouterModule.forRoot(
+      [
+        {
+          path: 'game/:id',
+          loadChildren: () =>
+            import('@bg-hoard/store/feature-game-detail').then(
+              (module) => module.StoreFeatureGameDetailModule
+            ),
+        },
+      ],
+      { initialNavigation: 'enabledBlocking' }
+    ),
     MatCardModule,
-    StoreUiSharedModule
+    StoreUiSharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
