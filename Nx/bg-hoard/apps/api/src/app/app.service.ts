@@ -1,6 +1,7 @@
+import { Game } from '@bg-hoard/api/util-interface';
 import { Injectable } from '@nestjs/common';
 
-const games = [
+const games: Game[] = [
   {
     id: 'settlers-in-the-can',
     name: 'Settlers in the Can',
