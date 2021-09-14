@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { formatRating } from '@bg-hoard/store/util-formatters';
+import { Game } from '@bg-hoard/util-interface';
 import { map, switchMap } from 'rxjs/operators';
 
 @Component({
@@ -14,7 +15,7 @@ export class GameDetailComponent {
 
   game$ = this.route.paramMap.pipe(
     map((params: ParamMap) => params.get('id')),
-    switchMap((id) => this.http.get<any>(`/api/games/${id}`))
+    switchMap((id) => this.http.get<Game>(`/api/games/${id}`))
   );
   formatRating = formatRating;
 }
